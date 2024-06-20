@@ -51,7 +51,7 @@ while True:
                 shape_name = "Triangle"
             elif len(approx) == 4:
                     shape_name = "Square"
-            elif len(approx) > 4:
+            elif len(approx) > 1:
                 shape_name = "Circle"
             else:
                 shape_name = "Unknown"
